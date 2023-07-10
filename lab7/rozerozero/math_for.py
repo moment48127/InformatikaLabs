@@ -11,7 +11,7 @@ def math_func():
         return var 
 
     def calculation():
-        f_eq_1 = 1
+        f_eq_1 = 2
         temp = 0
         f_eq_1_1 = (((import_var()[1] + import_var()[2])**2 + 1.08 * 10**3)**1/2) - import_var()[3]
         f_eq_1_2 = (((import_var()[4] + import_var()[2])**2 + 1.08 * 10**3)**1/2) - import_var()[3]
