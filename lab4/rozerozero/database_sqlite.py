@@ -1,6 +1,6 @@
 import sqlite3
 
-with sqlite3.connect('python\\lab4\\rozerozero\\database.db') as db:
+with sqlite3.connect('database.db') as db:
     cursor = db.cursor()
     cursor.execute(""" DROP TABLE IF EXISTS table_of_nf1 """)
     cursor.execute(""" DROP TABLE IF EXISTS table_of_nf2_1 """)
